@@ -1,0 +1,4 @@
+framework module Applitools_iOS {
+  header "Applitools_iOS-Swift.h"
+  requires objc
+}
