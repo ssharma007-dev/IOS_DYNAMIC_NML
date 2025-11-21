@@ -1,6 +1,6 @@
 const { Eyes } = require('@applitools/eyes-webdriverio');
 
-const APP_PATH = process.env.IOS_APP || require('path').resolve("./Sample-Instrumented-App/IOSFirstApp.app");
+const APP_PATH = process.env.IOS_APP || require('path').resolve("./Sample-Instrumented-App/IOSFirstAppApp.app");
 
 const caps = Eyes.setMobileCapabilities({
     platformName: "IOS",
@@ -10,7 +10,7 @@ const caps = Eyes.setMobileCapabilities({
     "appium:orientation": "PORTRAIT",
     "appium:automationName": "XCUITest",
     //For IOS the instrumented application not generated in dist folder, but one will get message on console the application is ready to use
-    "appium:app": APP_PATH, // instrumented app
+    "appium:app":APP_PATH, // instrumented app
     "appium:newCommandTimeout": 300,
 },
 process.env.APPLITOOLS_API_KEY)

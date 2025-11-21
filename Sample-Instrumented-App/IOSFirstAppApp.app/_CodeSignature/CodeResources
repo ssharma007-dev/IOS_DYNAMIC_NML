@@ -4,13 +4,40 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>IOSFirstAppApp.debug.dylib</key>
+		<data>
+		Be5j/zpOw9x0WRlVFvPY5MtSpv0=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		cAY1VsQRlqkoJr4NE64t2NObvcA=
+		Cfo/PhkyEEJSBHGTWyCmc2PRGRM=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>__preview.dylib</key>
+		<data>
+		A+lNMqBYrV6E1PsDQnO3+fM1rvI=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>IOSFirstAppApp.debug.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OIIrSw6BglKCKEd6wIl15YSr0v2eErqvwaDbtXnPhJE=
+			</data>
+		</dict>
+		<key>__preview.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e3ESxMJVpU42iubEkW0r4ONveV5Rr+fW0dW8cLKWhW4=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>
